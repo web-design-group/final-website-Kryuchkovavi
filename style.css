@@ -57,10 +57,19 @@ body {
   gap: 35px;
 }
 
+.nav-center:hover {
+  background-color: #fff;
+}
+
 .nav-center a {
   text-decoration: none;
   color: #000;
 }
+
+.nav-center a:hover {
+  color: #456B52; /* зелёный из проекта */
+}
+
 
 
 .nav-right {
@@ -85,7 +94,9 @@ body {
   color: #000;
 }
 
-
+.login:hover {
+  background-color: #fff;
+}
 .catalog-block {
   margin-top: 80px;
 }
